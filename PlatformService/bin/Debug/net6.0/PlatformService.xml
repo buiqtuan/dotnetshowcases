@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PlatformService</name>
+    </assembly>
+    <members>
+        <member name="T:PlatformService.PlatformsReflection">
+            <summary>Holder for reflection information generated from Protos/platforms.proto</summary>
+        </member>
+        <member name="P:PlatformService.PlatformsReflection.Descriptor">
+            <summary>File descriptor for Protos/platforms.proto</summary>
+        </member>
+        <member name="F:PlatformService.GrpcPlatformModel.PlatformIdFieldNumber">
+            <summary>Field number for the "platformId" field.</summary>
+        </member>
+        <member name="F:PlatformService.GrpcPlatformModel.NameFieldNumber">
+            <summary>Field number for the "name" field.</summary>
+        </member>
+        <member name="F:PlatformService.GrpcPlatformModel.PublisherFieldNumber">
+            <summary>Field number for the "publisher" field.</summary>
+        </member>
+        <member name="F:PlatformService.PlatformResponse.PlatformFieldNumber">
+            <summary>Field number for the "platform" field.</summary>
+        </member>
+        <member name="P:PlatformService.GrpcPlatform.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:PlatformService.GrpcPlatform.GrpcPlatformBase">
+            <summary>Base class for server-side implementations of GrpcPlatform</summary>
+        </member>
+        <member name="M:PlatformService.GrpcPlatform.BindService(PlatformService.GrpcPlatform.GrpcPlatformBase)">
+            <summary>Creates service definition that can be registered with a server</summary>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+        <member name="M:PlatformService.GrpcPlatform.BindService(Grpc.Core.ServiceBinderBase,PlatformService.GrpcPlatform.GrpcPlatformBase)">
+            <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
+            Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+            <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+            <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+        </member>
+    </members>
+</doc>
